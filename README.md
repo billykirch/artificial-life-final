@@ -24,7 +24,7 @@ Allocates memory and field data structures needed by the Taichi framework for pa
 
 - `clear_particle_grad()` and `clear_actuation_grad()`: Clear gradients for optimization purposes.
 
-- `p2g(f)`: Converts particle velocities and states to grid representations *accordint to sinusoidal waveforms*.
+- `p2g(f)`: Converts particle velocities and states to grid representations *according to sinusoidal waveforms*.
 
 - `grid_op()`: Processes grid operations, including applying gravity and handling collisions.
 
